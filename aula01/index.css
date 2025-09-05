@@ -31,7 +31,7 @@
     }
     .intro{
         margin-top: 0px;
-        height: 217px;
+        height: 230px;
         background-image: url('image/blue-high-tech-futuristic-cyberspace-technology-background-free-vector.jpg');
         background-size: cover;
         text-align: center;
@@ -85,6 +85,14 @@
     color: white;
 }
 .linkedin-icon:hover{
+    color: yellow;
+}
+.github-icon{
+    margin-top: 10px;
+    font-size: 35px;
+    color: white;
+}
+.github-icon:hover{
     color: yellow;
 }
 
