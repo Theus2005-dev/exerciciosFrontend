@@ -1,0 +1,105 @@
+ main{
+        flex: 1;
+    }
+    .intro{
+        margin-top: 0px;
+        height: 230px;
+        background-image: url('../../../public/blue-high-tech-futuristic-cyberspace-technology-background-free-vector.jpg');
+        background-size: cover;
+        text-align: center;
+        color: #f1f5f9;
+        gap: 5px;
+        
+    }
+    .intro h2{
+        margin-top: auto;
+    }
+    .intro h3{
+        margin-top: 30px;
+    }
+       strong{
+        color: yellow;
+        
+    }
+    
+.sobre{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#info{
+    width: 50%;
+    color: rgb(224, 221, 221);
+    margin: 70px 0px 0px 50px;
+   
+}
+#info h3{
+    text-align: center;
+    margin-top: 20px;
+}
+.area{
+    margin-left: 15rem;
+    width: 200px;
+    color: white;
+    background-color: yellow;
+    border-radius: 30px;
+}
+#img-container img{
+    margin-top: 10px;
+     width: 200px;
+    height: 300px;
+    border-radius: 100px;
+    border: greenyellow groove 2px;
+}
+.github-icon{
+    margin-top: 10px;
+    font-size: 35px;
+    color: white;
+}
+.github-icon:hover{
+    color: yellow;
+}
+.conhecimentos{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100px 100px 100px;
+    gap: 10px;
+}
+.block{
+    padding: 10pxss;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    transition: transform 1 ease;
+    color: black;
+}
+.block:hover{
+    transform: scale(1.2);
+    background-color: yellow;
+    border: #0d0d0ebd dashed 1px;
+}
+
+.block h5,p{
+    margin-top: 5px;
+    text-align: center;
+}
+@media (max-width: 768px) {
+     .sobre{
+         display: flex;
+        flex-direction: column;
+        
+    }
+    .intro{
+        width: 100vw;
+        height: 300px;
+    }
+    .conhecimentos{
+        display: grid;
+       grid-template-columns: 100px 100px;
+    }
+    .area{
+        margin-left: 0.1rem;
+    }
+}
